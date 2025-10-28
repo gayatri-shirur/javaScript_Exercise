@@ -7,8 +7,8 @@ try {
     console.log("try")
     fetch(url)
 
-} catch(e) {
-    console.log("catch",e)
+} catch {
+    console.log("catch")
 
 } finally {
     console.log("finally")
