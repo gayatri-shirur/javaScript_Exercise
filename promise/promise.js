@@ -11,4 +11,4 @@ function displayData(weather){  //Declares a function that expects a single argu
 }
 
 fetchData()  //Calls the fetchData function. This starts the entire asynchronous process and returns the custom Promise object.
-.then(displayData)  //Attaches the success handler. This tells the custom Promise: "When you successfully resolve (i.e., when line 5 calls resolve), execute the displayData function and pass the resolved value (the forecast string) as its argument."
+.then(displayData)  //Attaches the success handler. This tells the custom Promise: "When you successfully resolve (i.e., when line 5 calls resolve), execute the displayData function and pass the resolved value (the forecast string) as its argument.
